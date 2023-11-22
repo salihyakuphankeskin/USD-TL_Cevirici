@@ -1,0 +1,43 @@
+:root {
+    --color-1: #780000;
+    --color-2: #c1121f;
+    --color-3: #fdf0d5;
+    --color-4: #003049;
+    --color-5: #669bbc;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 0 0;
+    padding: 10px 20px;
+    color: var(--color-1);
+    background-color: #edede9;
+}
+
+#reloadButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#reloadButton {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}

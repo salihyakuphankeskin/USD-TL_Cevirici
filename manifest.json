@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Steam 1$-29TL çevirici",
+  "version": "1.0",
+  "description": "Your extension description",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://store.steampowered.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

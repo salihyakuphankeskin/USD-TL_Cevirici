@@ -11,6 +11,9 @@
       "128": "icon.png"
     }
   },
+  "host_permissions": [
+    "https://store.steampowered.com/*"
+  ],
   "permissions": ["activeTab"],
   "icons": {
     "16": "icon.png",

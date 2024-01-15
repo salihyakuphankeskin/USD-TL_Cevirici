@@ -1,4 +1,4 @@
-var exchangeRate = 29;
+var exchangeRate = 30;
 
 function replaceDollarAmountsInText(textContent) {
     var dollarAmounts = textContent.match(/\$\d+(\.\d{1,2})?/g);
